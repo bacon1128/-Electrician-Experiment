@@ -12,11 +12,16 @@ if __name__ == "__main__":
     answer = random.sample(dictionary, 1)[0]
     print(answer)
 
+    #check valid
+    if not user_input in dictionary:
+        print("Please input an valid word")
+        exit()
+
     #判斷使用者輸入與解答（Commit）
-    for i in range(len(user_input)):
+    for i in range(5):
         if user_input[i] == answer[i]:
-            print("A")
+            print("🟩", end='')
         elif user_input[i] in answer:
-            print("B")
+            print("🟨", end='')
         else:
-            print("X")
+            print("⬛", end='')
