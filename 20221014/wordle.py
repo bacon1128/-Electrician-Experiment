@@ -5,7 +5,7 @@ if __name__ == "__main__":
     print("Your input is", user_input)
 
     #指定一個正確答案（Commit）(簡易)
-    f = open("words.txt", "r")
+    f = open("C:\\Users\\Administrator\\Documents\\GitHub\\Electrician-Experiment\\20221014\\words.txt", "r")
     dictionary = f.read().splitlines()
     f.close()
 
