@@ -1,7 +1,7 @@
 if __name__ == "__main__":
     
     # 讀取一個文字檔，並將其內容轉成list資料型態
-    f = open("day1.txt", "r")
+    f = open("C:\\Users\\Administrator\\Documents\\GitHub\\Electrician-Experiment\\20220930\\day1.txt", "r")
     data = f.read().splitlines()
 
     # 將list內的數字轉成int型態
